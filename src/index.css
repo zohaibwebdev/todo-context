@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #252525;
+  color: azure;
+}
+.item {
+  display: flex;
+  max-width: 350px;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+.btn {
+  color: aliceblue;
+  background: green;
+  padding: 8px 10px;
+  font-size: 18px;
+}
+.add {
+  display: flex;
+  justify-content: center;
+  max-width: 350px;
+}
